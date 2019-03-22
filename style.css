@@ -1,30 +1,42 @@
 body{
   font-family: arial;
-  border: 1px solid red;
+  background-color: mediumseagreen;
 }
-
-/* form{
-  border:1px solid green;
-  margin: 10px;
-} */
 
 fieldset{
   width: 300px;
-  border: 1px solid blue;
-  margin: 0px auto;
+  margin: 0 auto;
+  border: none;
+  padding: 0 0 10px 0;
+  background-color: white;
 }
-/*
-legend{
-  border: 1px solid yellow;
-  margin: 10spx;
+form{
+    background-color: white;
+  width: 300px;
+  padding: 40px 10px 0 10px;
+  margin: 0 auto;
+  border-radius: 4px;
 }
-
-label{
-  border: 0px solid;
-  margin: 10px;
-}
-
 input{
-  border: 0px solid;
-  margin: 10px;
-} */
+  display: block;
+  border: none;
+  margin: 15px auto;
+  width: 280px;
+  background-color: #eaeaea;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 4px;
+}
+legend{
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color:#777;
+}
+input[type=submit]{
+  background-color: mediumseagreen;
+  color: #777;
+  cursor: pointer;
+}

@@ -9,17 +9,9 @@
     <form action="login.php" method="post">
       <fieldset>
         <legend>Log-In</legend>
-        <p>
-          <label for="email">E-mail</label>
-          <input type="email" id="email">
-        </p>
-        <p>
-          <label for="password">Password</label>
-          <input type="password" id="password">
-        </p>
-        <p>
+          <input type="email" id="email" name="e" placeholder="Email" autocomplete="off" autofocus required >
+          <input type="password" id="password" name="p" placeholder="Password" required>
           <input type="submit" value="Log-In">
-        </p>
       </fieldset>
     </form>
   </body>
